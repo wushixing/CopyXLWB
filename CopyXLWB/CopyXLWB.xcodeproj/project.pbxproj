@@ -16,6 +16,9 @@
 		9DD9560622912D6E004BDE4D /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9560522912D6E004BDE4D /* MessageViewController.swift */; };
 		9DD9560822912D7F004BDE4D /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9560722912D7F004BDE4D /* DiscoverViewController.swift */; };
 		9DD9560A22912D8D004BDE4D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9560922912D8D004BDE4D /* ProfileViewController.swift */; };
+		9DD9560C22913087004BDE4D /* Extension-UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9560B22913087004BDE4D /* Extension-UIColor.swift */; };
+		9DD9560E22914940004BDE4D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9560D22914940004BDE4D /* Common.swift */; };
+		9DE67A92229293A500120728 /* DomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE67A91229293A500120728 /* DomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		9DD9560522912D6E004BDE4D /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		9DD9560722912D7F004BDE4D /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		9DD9560922912D8D004BDE4D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9DD9560B22913087004BDE4D /* Extension-UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-UIColor.swift"; sourceTree = "<group>"; };
+		9DD9560D22914940004BDE4D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		9DE67A91229293A500120728 /* DomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,8 @@
 		9DD955F322912BA1004BDE4D /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				9DD9560B22913087004BDE4D /* Extension-UIColor.swift */,
+				9DD9560D22914940004BDE4D /* Common.swift */,
 			);
 			path = "Tools(工具)";
 			sourceTree = "<group>";
@@ -117,6 +125,7 @@
 		9DD955F422912BD9004BDE4D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9DE67A902292938300120728 /* 测试 */,
 				9DD955FD22912CE4004BDE4D /* MainViewController.swift */,
 				9DD955FF22912D1F004BDE4D /* NavigationViewController.swift */,
 				9DD9560122912D39004BDE4D /* BaseViewController.swift */,
@@ -154,6 +163,14 @@
 				9DD9560522912D6E004BDE4D /* MessageViewController.swift */,
 			);
 			path = Message;
+			sourceTree = "<group>";
+		};
+		9DE67A902292938300120728 /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				9DE67A91229293A500120728 /* DomeViewController.swift */,
+			);
+			path = "测试";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +247,12 @@
 				9DD9560822912D7F004BDE4D /* DiscoverViewController.swift in Sources */,
 				9DD9560222912D39004BDE4D /* BaseViewController.swift in Sources */,
 				9DD955FE22912CE4004BDE4D /* MainViewController.swift in Sources */,
+				9DD9560C22913087004BDE4D /* Extension-UIColor.swift in Sources */,
 				9DD9560622912D6E004BDE4D /* MessageViewController.swift in Sources */,
 				9DD9560A22912D8D004BDE4D /* ProfileViewController.swift in Sources */,
+				9DD9560E22914940004BDE4D /* Common.swift in Sources */,
 				9DD955DE22912A01004BDE4D /* AppDelegate.swift in Sources */,
+				9DE67A92229293A500120728 /* DomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

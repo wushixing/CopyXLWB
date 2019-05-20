@@ -10,21 +10,20 @@ import UIKit
 
 class NavigationViewController: UINavigationController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    /// 重新push方法
+    ///
+    /// - Parameters:
+    ///   - viewController: 控制器
+    ///   - animated: 动画效果
+    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        
+        // 判断是否是根控制器
+        if children.count > 0 {
+            // 隐藏底部的tabbar
+            viewController.hidesBottomBarWhenPushed = true
+        }
+        
+        super.pushViewController(viewController, animated: true)
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
